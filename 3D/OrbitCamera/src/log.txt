@@ -1,0 +1,44 @@
+===== Log started at 2016-07-15, 1:00:19. =====
+
+1:00:19  Main window is created.
+1:00:19  Display Resolution: 1440x900
+1:00:19  Creating a dummy window to use WGL_ARB_pixel_format extension.
+1:00:20  WGL_ARB_pixel_format and WGL_ARB_multisample are supported.
+1:00:20  Use wglChoosePixelFormatARB() to find a pixel format with MSAA.
+1:00:20  MSAA mode: 8x
+1:00:20  Pixel Format: 46
+1:00:20  A dummy window is destroyed.
+1:00:20  Initialized OpenGL states.
+1:00:20  Use GL_ARB_shader_objects extension.
+1:00:20  Use GL_ARB_vertex_buffer_object extension.
+1:00:20  [ERROR] Failed to load OBJs.
+1:00:20  Changed OpenGL rendering window size: 1440x900.
+1:00:21  OpenGL rendering window 1 is created.
+1:00:21  Creating a dummy window to use WGL_ARB_pixel_format extension.
+1:00:21  WGL_ARB_pixel_format and WGL_ARB_multisample are supported.
+1:00:21  Use wglChoosePixelFormatARB() to find a pixel format with MSAA.
+1:00:21  MSAA mode: 8x
+1:00:21  Pixel Format: 46
+1:00:21  A dummy window is destroyed.
+1:00:21  Initialized OpenGL states.
+1:00:21  Use GL_ARB_shader_objects extension.
+1:00:21  Use GL_ARB_vertex_buffer_object extension.
+1:00:21  [ERROR] Failed to load OBJs.
+1:00:21  Changed OpenGL rendering window size: 1440x900.
+1:00:21  OpenGL rendering window 2 is created.
+1:00:21  Form dialog is created.
+1:00:21  Changed OpenGL rendering window size: 496x496.
+1:00:21  Changed OpenGL rendering window size: 496x496.
+1:00:21  Main window is open.
+
+1:00:30  Closing the application...
+1:00:30  Main windows is destroyed.
+1:00:30  Closed OpenGL rendering context.
+1:00:30  OpenGL window is destroyed.
+1:00:30  Closed OpenGL rendering context.
+1:00:30  OpenGL window is destroyed.
+1:00:30  Form dialog is destroyed.
+1:00:30  Application is terminated.
+
+
+===== END OF LOG =====
