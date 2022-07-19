@@ -1,0 +1,21 @@
+TECLA -/+: diminui ou aumenta o raio do poligono
+TECLA Q: sai do programa
+______________________________________________________________________________________
+https://www.geogebra.org/m/em5s9h53
+
+Todos os calculos foram baseados na LEI DOS COSSENOS sobre o triangulo ABC:
+AB = c
+AC = b
+BC = a
+*descobrir o tamanho de AB (chamado de c):
+     | a^2 = b^2 + c^2 - 2.b.c.cos(22.5)
+     | c^2 - 2.b.cos(22.5).c + (b^2 - a^2) -> funcao de 2º grau
+     | entao pegar o lado c de menor tamanho.
+ *descobrir o angulo Alpha:
+     | c^2 = a^2 + b^2 - 2.a.b.cos(Alpha)
+     | cos(Alpha) = (c^2 - (a^2 + b^2)) / -2.a.b
+     | agora aplicar arccos para achar Alpha!!
+______________________________________________________________________________________
+todas as formulas foram deduzida usando o geogebra e aplicações de algebra linear e geometria analitica.
+
+Gabriel B Brandão !!

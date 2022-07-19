@@ -1,0 +1,43 @@
+TECLA -/+: diminui ou aumenta o raio do poligono
+TECLA Q: sai do programa
+
+****************************************************
+https://www.geogebra.org/m/em5s9h53
+
+I. eq. da reta que forma o raio do Hexagono:
+y = x * tan(22.5º) //y - yo = m(x - x0)
+
+II. eq. da circunferencia VERDE:
+(x - x0)^2 + (y - y0)^2 = L^2
+C = (x0, y0)
+******************************************************
+
+eq. da circunferencia VERMELHA:
+x^2 + y^2 = (raio - L)^2
+
+a circunferencia VERDE precisa ter centro no raio da circunferencia VERMELHA assim:
+x0 = (raio - L)*cos(teta)
+y0 = (raio - L)*sen(teta)
+
+para teta = 0º:
+x0 = (raio - L);
+y0 = 0;
+
+(x - (raio - L))^2 + (y)^2 = L^2
+...
+x^2 * (1 + (tan(fi))^2) + x * (-2*(raio - L)) + raio(raio - 2*L) = 0 (eq de segundo grau)
+
+
+Apos achar DOIS pontos, eleger como o ponto (x, y) aquele que estiver mais proximo da origem:
+x1^2 + y1^2 < x2^2 + y2^2
+x = x1
+y = y1
+
+para descobrir angulo entre vetores usar produto escalar:
+cos(alfa) = (u . v) / ||u||*||v|| = A
+arcos(A) = alfa
+________________________________________________________________________________________
+
+todas as formulas foram deduzida usando o geogebra e aplicações de algebra linear e geometria analitica.
+
+Gabriel B Brandão !!

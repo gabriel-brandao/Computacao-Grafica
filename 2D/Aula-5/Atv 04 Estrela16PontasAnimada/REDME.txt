@@ -1,0 +1,36 @@
+TECLA -/+: diminui ou aumenta o raio do poligono
+TECLA Q: sai do programa
+______________________________________________________________________________________
+https://www.geogebra.org/m/h9f6hmx8
+
+Todos os calculos foram baseados na LEI DOS SENOS sobre o triangulo ABC:
+AB = c
+AC = b
+BC = a
+*descobrir o angulo do ponto C(ALPHA), apartir do angulo B:
+     | B = 180 - (ALPHA + 22.5°)
+     | b / sen(B) = a / sen (A)
+     | raioVermelho / sen (B) = L / sen (22.5)
+     | arcSen (sen (B)) = B
+     | *SABE-SE QUE O VALOR DE SEN É O MESMO PARA UM ANGULO AGUDO E OBTUSO !!
+     | E A LEI DOS SENOS RETORNA SEMPRE UM ANGULO AGUDO !!
+     | e sabemos que o angulo B deve ser obtuso, portanto:
+     | B = 180 - B
+     | agora...
+     | ALPHA = 180 - 22.5 - B
+
+*Ponto Medio entre dois pontos:
+     | PmX = (xi + xf) / 2 
+     | PmY = (yi + yf) / 2
+
+*Descobrindo o angulo PHI da ponta extrema secundaria (PES):
+     | L / sen(ALPHA+22.5°) = (L/2) / sen(AS)
+     | sen(AS) = 0.5*sen(ALPHA+22.5°)
+     | AS = arcSen(sen(AS))
+     | PHI = 180 - (ALPHA + 22.5 + AS)
+
+
+____________________________________________________________________________________
+todas as formulas foram deduzida usando o geogebra e aplicações de algebra linear e geometria analitica.
+
+Gabriel B Brandão !!
